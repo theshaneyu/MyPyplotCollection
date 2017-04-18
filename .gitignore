@@ -1,3 +1,6 @@
+BreastCancerAnalysis/result/
+BreastCancerAnalysis/HW4_1.py
+
 # Project stuff
 entrance/settings_database.py
 uwsgi.deploy.ini
