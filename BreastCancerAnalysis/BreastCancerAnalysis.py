@@ -1,7 +1,6 @@
 # @Author: Shane Yu  @Date created: April 17, 2017
 import matplotlib
 matplotlib.use('Agg') # server的backend display參數設定，否則無法使用pyplot
-import time
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
@@ -21,7 +20,6 @@ class BreastCancerAnalysis(object):
     def createBoxPlot(self, data):
         plt.figure(figsize=(10,10), dpi=150)
         data[[1,2]].boxplot()
-        plt.legend()
         plt.legend(loc='best')
         plt.savefig('./result/Box.png', dpi=150, format='png')
 
