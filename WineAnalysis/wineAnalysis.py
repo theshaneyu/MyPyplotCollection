@@ -10,13 +10,13 @@ class wineAnalysis(object):
     """
     Usage(in command line):
         e.g. 畫以class3和class7為x, y軸的Scatter圖
-        - python3.4 wineAnalysis.py d 3 7 輸出檔名
+        - python3 wineAnalysis.py d 3 7 輸出檔名
         
         e.g. 印出class1的mean vector
-        - python3.4 wineAnalysis.py m 1
+        - python3 wineAnalysis.py m 1
         
         e.g. 印出class3的covariance matrix
-        - python3.4 wineAnalysis.py c 3
+        - python3 wineAnalysis.py c 3
 
     """
     def __init__(self):
